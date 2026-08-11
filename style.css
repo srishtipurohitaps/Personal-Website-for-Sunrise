@@ -236,3 +236,213 @@ body {
     font-size: 17px;
 }
 
+.batman-section {
+    padding: 80px 10%;
+    text-align: center;
+    background-color: #EEF5FB;
+}
+
+.batman-section h2 {
+    font-size: 40px;
+    color: #315A7D;
+    margin-bottom: 30px;
+}
+
+.batman-section img {
+    width: 100%;
+    max-width: 700px;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(49, 90, 125, 0.15);
+}
+
+.image-credit {
+    margin-top: 12px;
+    color: #718096;
+    font-size: 14px;
+}
+
+.image-credit a {
+    color: #4F7CAC;
+    text-decoration: none;
+}
+
+.image-credit a:hover {
+    text-decoration: underline;
+}
+
+.portfolio-intro {
+    padding: 90px 10% 60px;
+}
+
+.portfolio-intro h1 {
+    font-size: 65px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.portfolio-intro h1 span {
+    color: #4F7CAC;
+}
+
+.portfolio-intro p {
+    max-width: 700px;
+    color: #607080;
+    font-size: 18px;
+}
+
+.projects {
+    padding: 20px 10% 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.project-card {
+    background-color: white;
+    border: 1px solid #D8E3EC;
+    border-radius: 15px;
+    padding: 35px;
+    min-height: 300px;
+    box-shadow: 0 8px 25px rgba(49, 90, 125, 0.06);
+}
+
+.project-card h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #315A7D;
+}
+
+.project-card p {
+    color: #607080;
+}
+
+.experience {
+    background-color: #EEF5FB;
+    padding: 90px 10%;
+}
+
+.experience h2,
+.achievements h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #315A7D;
+}
+
+.timeline {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.timeline-item {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #D8E3EC;
+}
+
+.timeline-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #315A7D;
+}
+
+.timeline-item p {
+    color: #607080;
+}
+
+.achievements {
+    padding: 90px 10%;
+}
+
+.achievement-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.achievement-grid div {
+    padding: 25px;
+    border-left: 3px solid #4F7CAC;
+}
+
+.achievement-grid strong {
+    font-size: 35px;
+    color: #315A7D;
+}
+
+.achievement-grid p {
+    color: #607080;
+}
+
+footer {
+    background-color: #315A7D;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    color: #E2EDF5;
+}
+
+@media (max-width: 750px) {
+
+    .navbar {
+        padding: 20px;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 60px 25px;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 50px;
+    }
+
+    .photo-card {
+        width: 280px;
+        transform: rotate(2deg);
+    }
+
+    .photo-card img {
+        height: 240px;
+    }
+
+    .about {
+        padding: 70px 25px;
+    }
+
+    .about h2 {
+        font-size: 35px;
+    }
+
+    .portfolio-intro {
+        padding: 60px 25px 40px;
+    }
+
+    .portfolio-intro h1 {
+        font-size: 45px;
+    }
+
+    .projects {
+        grid-template-columns: 1fr;
+        padding: 20px 25px 60px;
+    }
+
+    .timeline {
+        grid-template-columns: 1fr;
+    }
+
+    .achievement-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .batman-section img {
+        max-height: 300px;
+    }
+}
